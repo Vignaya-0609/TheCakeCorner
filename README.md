@@ -1,1 +1,2 @@
 # TheCakeCorner
+The Cake Corner website is a visually delightful platform designed to showcase delectable cakes and desserts. Crafted using HTML and CSS, this website ensures a seamless and responsive user experience across various devices. With the implementation of media queries, The Cake Corner adapts beautifully to different screen sizes, providing an optimal browsing experience whether you're on a desktop, tablet, or smartphone.
