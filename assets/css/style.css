@@ -10,7 +10,7 @@ html{
 /* header */
 header{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #e5f0f3;
 }
 /* navbar */
@@ -443,7 +443,7 @@ footer{
         flex-basis: 47%;
     }
 }
-@media screen and (max-width:920px) {
+@media screen and (max-width:920px) and (orientation: portrait){
     .banner{
         flex-direction: column;
         padding: 30px;
@@ -516,5 +516,31 @@ footer{
     .card-img img{
         width: 95px;
         height: 95px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) and (orientation: landscape) {
+    header{
+        height: auto;
+    }
+    .nav-links ul li a{
+        font-size: 1.2rem;
+    }
+    .banner .curve {
+        width: 100px;
+        height: 100px;
+    }
+    .curve img {
+        width: 80px;
+        height: 80px;
+    }
+    .banner-content h2 {
+        font-size: 1rem;
+    }
+    .banner-content p {
+        font-size: 0.7rem;
+    }
+    .cakes-btn button{
+        padding: 7px 20px;
+        font-size: 0.8rem;
     }
 }
